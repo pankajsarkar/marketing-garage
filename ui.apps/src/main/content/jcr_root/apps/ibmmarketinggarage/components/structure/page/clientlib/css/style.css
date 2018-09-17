@@ -1,0 +1,48 @@
+body {
+	background-color: #f0f0f0 !important;
+	font-family: 'Ubuntu', sans-serif !important;
+}
+
+.page_main {
+	position: relative;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 6em 1em 1em;
+	background-color: #fff;
+	box-shadow: 0 0 9px 1px rgba(0, 0, 0, .2); ,
+	-moz-box-shadow: 0 0 9px 1px -moz-rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, .2);
+	zoom: 100%;
+}
+
+.page_logo {
+	display: inline-block;
+}
+
+.page_topnav {
+	position: absolute;
+	top: 20px;
+	left: 10em;
+	max-width: 70%;
+}
+
+.page_title h1 {
+	color: #025c1f;
+	text-transform: uppercase;
+}
+
+.page_copyright {
+	font-size: 12px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.right-navbar-nav {
+	padding-top: 15px;
+	margin-right: 18px;
+    text-align: right;
+	color: white;
+}
+nav.navbar-fixed-top {
+	position: sticky;
+}
