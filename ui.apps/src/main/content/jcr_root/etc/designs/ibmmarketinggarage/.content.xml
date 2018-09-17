@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-07-31T14:10:27.596+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-07-31T14:17:23.121+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="IBM Marketing Garage Design"
+        jcr:uuid="b0ffbeaf-d8c8-41c6-bed7-6ff6d3eb2a3f"
+        sling:resourceType="wcm/core/components/designer">
+    </jcr:content>
+    <clientlib-base/>
+</jcr:root>
