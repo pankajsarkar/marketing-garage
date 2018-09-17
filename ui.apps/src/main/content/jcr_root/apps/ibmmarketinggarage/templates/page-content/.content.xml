@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:description="Template with focus on content."
     jcr:primaryType="cq:Template"
-    jcr:title="IBM Marketing Garage Site Content Page"
+    jcr:title="IBM Marketing Garage Site Base Content Page"
     allowedPaths="[/content/ibmmarketinggarage/.+]"
     ranking="{Long}100">
     <jcr:content
