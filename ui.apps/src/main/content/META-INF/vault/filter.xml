@@ -2,4 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/ibmmarketinggarage"/>
     <filter root="/apps/sling" />
+    <filter root="/etc/clientlibs/ibmmarketinggarage" />
+    <filter root="/etc/designs/ibmmarketinggarage" />
 </workspaceFilter>
