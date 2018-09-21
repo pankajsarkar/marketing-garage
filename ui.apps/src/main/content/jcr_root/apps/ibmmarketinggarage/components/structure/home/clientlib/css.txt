@@ -1,0 +1,16 @@
+#base=css
+style.css
+animate.css
+font-awesome.css
+jquery.fancybox.css
+slick.css
+theme-color/bridge-theme.css
+theme-color/dark-red-theme.css
+theme-color/default-theme.css
+theme-color/fountain-blue-theme.css
+theme-color/green-theme.css
+theme-color/lite-blue-theme.css
+theme-color/orange-theme.css
+theme-color/pink-theme.css
+theme-color/purple-theme.css
+theme-color/red-theme.css
