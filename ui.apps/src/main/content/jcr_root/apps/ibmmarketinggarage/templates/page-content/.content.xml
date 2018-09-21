@@ -8,5 +8,7 @@
     <jcr:content
         jcr:primaryType="cq:PageContent"
         sling:resourceType="ibmmarketinggarage/components/structure/page">
+        <text jcr:primaryType="nt:unstructured"
+				sling:resourceType="/apps/ibmmarketinggarage/components/content/text" />
     </jcr:content>
 </jcr:root>
