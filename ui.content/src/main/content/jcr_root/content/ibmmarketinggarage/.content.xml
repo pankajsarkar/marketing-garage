@@ -10,4 +10,7 @@
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/ibmmarketinggarage/en"/>
+    <en/>
+    <de/>
+    <fr/>
 </jcr:root>
