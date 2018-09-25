@@ -1,0 +1,52 @@
+<!-- BEGAIN PRELOADER -->
+  <!-- <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div> -->
+  <!-- END PRELOADER -->
+
+  <!-- SCROLL TOP BUTTON -->
+  <!-- <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a> -->
+  <!-- END SCROLL TOP BUTTON -->
+  
+  <!-- Start header -->
+  <header id="header">
+  
+    <div data-sly-resource="${ @path='search', resourceType='ibmmarketinggarage/components/content/search'}"></div>
+
+    <div class="header-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-contact">
+              <ul>
+                <li>
+                  <div class="phone">
+                    <i class="fa fa-phone"></i>
+                    +1(800) 699-7071
+                  </div>
+                </li>
+                <li>
+                  <div class="mail">
+                    <i class="fa fa-envelope"></i>
+                    iam@domain.com
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="header-login">
+              <a class="login modal-form" data-target="#login-form" data-toggle="modal" href="#">Login / Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header -->
+  
+<div data-sly-include="modals.html" data-sly-unwrap></div>
+
+<section id="menu-area"> 
+<div data-sly-resource="${ @path='navigation', resourceType='ibmmarketinggarage/components/content/navigation'}"></div>
+</section>
