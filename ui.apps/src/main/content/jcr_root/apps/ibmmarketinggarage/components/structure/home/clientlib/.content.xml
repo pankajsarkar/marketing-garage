@@ -5,5 +5,5 @@
     cq:lastReplicationAction="Activate"
     jcr:mixinTypes="[cq:ReplicationStatus]"
     jcr:primaryType="cq:ClientLibraryFolder"
-    categories="[clientlib.site]"
+    categories="[clientlib.home]"
     dependencies="[clientlib.base]"/>

@@ -1452,7 +1452,7 @@ img{
 
 #subscribe{
   background-attachment: fixed !important;
-  background-image: url("/etc/designs/ibmmarketinggarage/clientlib-site/images/subscribe-bg.jpg");
+  background-image: url("/apps/ibmmarketinggarage/clientlibs/clientlib-site/images/subscribe-bg.jpg");
   background-repeat: repeat;
   background-size: cover;
   color: #ffffff;
@@ -1461,14 +1461,12 @@ img{
   width: 100%;
 }
 
-
 .subscribe-overlay{
- background-color: rgba(0,0,0,0.6);
- padding: 90px 0;
- float: left;
- width: 100%;
+  background-color: rgba(0,0,0,0.6); 
+  padding: 90px 0;
+  float: left;
+  width: 100%;
 }
-
 .subscribe-area{
   display: inline;
   float: left;

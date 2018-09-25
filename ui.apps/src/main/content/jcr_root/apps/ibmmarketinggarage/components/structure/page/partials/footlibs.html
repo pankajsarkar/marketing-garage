@@ -13,12 +13,19 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
-<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
-    <sly data-sly-call="${clientlib.js @ categories='marketing-garage.base'}"/>
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+<!-- <sly data-sly-call="${clientlib.js @ categories='marketing-garage.base'}"/> -->
+<sly
+	data-sly-call="${clientlib.all @ categories='ibmmarketinggarage.footer'}" />
 </sly>
 
 <!--/* Include Adobe Dynamic Tag Management libraries for the footer */-->
 <!-- 
 <sly data-sly-resource="${@ resourceType='cq/cloudserviceconfigs/components/servicecomponents'}" data-sly-unwrap/>
  -->
- <div data-sly-resource="${ @path='footer-par', resourceType='wcm/foundation/components/iparsys'}"></div>
+<!--  <div data-sly-resource="${ @path='footer-par', resourceType='wcm/foundation/components/iparsys'}"></div> -->
+
+
+<div
+	data-sly-resource="${ @path='footer', resourceType='ibmmarketinggarage/components/content/footer'}"></div>
