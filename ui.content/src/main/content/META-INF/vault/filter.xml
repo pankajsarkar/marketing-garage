@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/ibmmarketinggarage"/>
-    <filter root="/content/ibmmarketinggarage"/>
-    <filter root="/content/dam/ibmmarketinggarage"/>
+    <filter root="/content/mkg"/>
+    <filter root="/content/dam/mkg"/>
 </workspaceFilter>

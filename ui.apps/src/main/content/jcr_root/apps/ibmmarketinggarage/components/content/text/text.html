@@ -1,0 +1,15 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" 
+	data-sly-call="${clientlib.all@categories='clientlib.home'}"/>
+
+<div class="row">
+        <div class="col-md-12">
+          <div class="title-area">
+            <!--  <h2 class="title">Features</h2>
+            <span class="line"></span> -->
+            <p><div data-sly-test="${!properties.text}" class="cq-placeholder" data-emptytext="${'Enter_Text' @ i18n}"></div>
+					<p data-sly-test="${properties.text}" class="">${properties.text @ context='html'}</p></p>
+          </div>
+     </div>
+</div>
+       
+        
