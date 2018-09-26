@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-09-26T10:08:17.238+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/wcm/msm/templates/blueprint"
+        jcr:description="IBM MKG Blueprint Configuration"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="IBM MKG Blueprint"
+        sling:resourceType="wcm/msm/components/blueprint"
+        sitePath="/content/mkg/global">
+        <dialog/>
+    </jcr:content>
+</jcr:root>

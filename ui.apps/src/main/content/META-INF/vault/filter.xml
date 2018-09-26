@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/ibmmarketinggarage"/>
+    <filter root="/apps/ibmmarketinggarage" />
+    <filter root="/apps/msm/ibmmarketinggarage" />
     <filter root="/apps/sling" />
-    <filter root="/etc/clientlibs/ibmmarketinggarage" />
-    <filter root="/etc/designs/ibmmarketinggarage" />
 </workspaceFilter>
