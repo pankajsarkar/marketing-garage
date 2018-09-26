@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-09-24T13:14:33.499+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2018-09-26T11:24:26.793+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:lastTranslationUpdate="{Date}2018-09-24T13:13:37.846+05:30"
+        cq:template="/apps/ibmmarketinggarage/templates/page-home"
+        cq:translationSourcePath="/content/mkg/global/en/feature"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="MKG - Feature"
+        jcr:uuid="2fae15d6-00bf-4d8b-a563-e16d0fbfe7ac"
+        sling:resourceType="ibmmarketinggarage/components/structure/home"/>
+</jcr:root>

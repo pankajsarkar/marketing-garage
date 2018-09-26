@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf=""
+        cq:isLanguageRoot="{Boolean}true"
+        cq:lastModified="{Date}2018-09-24T13:13:37.909+05:30"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationUpdate="{Date}2018-09-24T13:13:37.909+05:30"
+        cq:template="/apps/ibmmarketinggarage/templates/page-home"
+        cq:translationSourcePath="/content/mkg/global/en"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="fr"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="French"
+        jcr:uuid="20685c88-f875-4fa7-be4d-27c758b29821"
+        sling:resourceType="ibmmarketinggarage/components/structure/home"/>
+    <home/>
+    <feature/>
+</jcr:root>
