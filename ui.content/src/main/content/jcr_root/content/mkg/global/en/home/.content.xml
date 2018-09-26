@@ -13,31 +13,16 @@
         sling:resourceType="ibmmarketinggarage/components/structure/home">
         <main-par
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/parsys"/>
-        <header-par
-            jcr:lastModified="{Date}2018-09-25T21:12:12.806+05:30"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/iparsys">
-            <iparsys_fake_par
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/iparsys/par"/>
-            <title
+            sling:resourceType="wcm/foundation/components/parsys">
+            <mkg-title-text
                 jcr:created="{Date}2018-09-25T21:12:33.359+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2018-09-25T21:12:45.336+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="ibmmarketinggarage/components/content/title"
-                title="Feature"/>
-            <text
-                jcr:created="{Date}2018-09-25T21:13:38.615+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-09-25T21:13:42.779+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="ibmmarketinggarage/components/content/text"
+                sling:resourceType="ibmmarketinggarage/components/content/mkg-title-text"
+                title="Feature"
                 text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"/>
-        </header-par>
+        </main-par>
     </jcr:content>
 </jcr:root>
