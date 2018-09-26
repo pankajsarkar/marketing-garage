@@ -1,9 +1,0 @@
-com\ibm\marketing_garage\core\listeners\SimpleResourceListener.class
-com\ibm\marketing_garage\core\schedulers\SimpleScheduledTask.class
-com\ibm\marketing_garage\core\services\inf\HelloWorld.class
-com\ibm\marketing_garage\core\filters\LoggingFilter.class
-com\ibm\marketing_garage\core\package-info.class
-com\ibm\marketing_garage\core\schedulers\SimpleScheduledTask$Config.class
-com\ibm\marketing_garage\core\servlets\SimpleServlet.class
-com\ibm\marketing_garage\core\services\impl\HelloWorldImpl.class
-com\ibm\marketing_garage\core\models\HelloWorldModel.class
